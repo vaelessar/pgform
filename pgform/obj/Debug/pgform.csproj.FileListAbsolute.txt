@@ -1,0 +1,11 @@
+c:\users\kioko\documents\visual studio 2015\Projects\pgform\pgform\bin\Debug\pgform.exe.config
+c:\users\kioko\documents\visual studio 2015\Projects\pgform\pgform\obj\Debug\pgform.csprojResolveAssemblyReference.cache
+c:\users\kioko\documents\visual studio 2015\Projects\pgform\pgform\obj\Debug\pgform.Form1.resources
+c:\users\kioko\documents\visual studio 2015\Projects\pgform\pgform\obj\Debug\pgform.Properties.Resources.resources
+c:\users\kioko\documents\visual studio 2015\Projects\pgform\pgform\obj\Debug\pgform.csproj.GenerateResource.Cache
+c:\users\kioko\documents\visual studio 2015\Projects\pgform\pgform\bin\Debug\pgform.exe
+c:\users\kioko\documents\visual studio 2015\Projects\pgform\pgform\bin\Debug\pgform.pdb
+c:\users\kioko\documents\visual studio 2015\Projects\pgform\pgform\bin\Debug\Npgsql.dll
+c:\users\kioko\documents\visual studio 2015\Projects\pgform\pgform\bin\Debug\Npgsql.xml
+c:\users\kioko\documents\visual studio 2015\Projects\pgform\pgform\obj\Debug\pgform.exe
+c:\users\kioko\documents\visual studio 2015\Projects\pgform\pgform\obj\Debug\pgform.pdb
