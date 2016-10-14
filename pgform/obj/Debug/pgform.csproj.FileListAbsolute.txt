@@ -9,3 +9,14 @@ c:\users\kioko\documents\visual studio 2015\Projects\pgform\pgform\bin\Debug\Npg
 c:\users\kioko\documents\visual studio 2015\Projects\pgform\pgform\bin\Debug\Npgsql.xml
 c:\users\kioko\documents\visual studio 2015\Projects\pgform\pgform\obj\Debug\pgform.exe
 c:\users\kioko\documents\visual studio 2015\Projects\pgform\pgform\obj\Debug\pgform.pdb
+D:\Praktika\form\1\pgform\pgform\bin\Debug\pgform.exe.config
+D:\Praktika\form\1\pgform\pgform\obj\Debug\pgform.exe
+D:\Praktika\form\1\pgform\pgform\obj\Debug\pgform.pdb
+D:\Praktika\form\1\pgform\pgform\bin\Debug\pgform.exe
+D:\Praktika\form\1\pgform\pgform\bin\Debug\pgform.pdb
+D:\Praktika\form\1\pgform\pgform\bin\Debug\Npgsql.dll
+D:\Praktika\form\1\pgform\pgform\bin\Debug\Npgsql.xml
+D:\Praktika\form\1\pgform\pgform\obj\Debug\pgform.csprojResolveAssemblyReference.cache
+D:\Praktika\form\1\pgform\pgform\obj\Debug\pgform.Form1.resources
+D:\Praktika\form\1\pgform\pgform\obj\Debug\pgform.Properties.Resources.resources
+D:\Praktika\form\1\pgform\pgform\obj\Debug\pgform.csproj.GenerateResource.Cache
