@@ -7,24 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Npgsql;
-
 
 namespace pgform
 {
-    public partial class Form1 : Form
+    public partial class openForm : Form
     {
-        public Form1()
+        public openForm()
         {
             InitializeComponent();
-        }
-        public void Form1_Load(object sender, EventArgs e)
-        {
-        }
-
-        private void открытьToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
