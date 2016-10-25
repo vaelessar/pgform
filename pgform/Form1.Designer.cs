@@ -29,8 +29,14 @@
         private void InitializeComponent()
         {
             this.tabTwo = new System.Windows.Forms.TabControl();
-            this.tabClient = new System.Windows.Forms.TabPage();
             this.tabOne = new System.Windows.Forms.TabPage();
+            this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.textBox8 = new System.Windows.Forms.TextBox();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
@@ -62,15 +68,9 @@
             this.сохранитьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.выходToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.оПрограммеToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.groupBox6 = new System.Windows.Forms.GroupBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
             this.tabTwo.SuspendLayout();
             this.tabOne.SuspendLayout();
+            this.groupBox6.SuspendLayout();
             this.groupBox5.SuspendLayout();
             this.groupBox4.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -79,12 +79,10 @@
             this.tabPage3.SuspendLayout();
             this.tabThree.SuspendLayout();
             this.menuStrip1.SuspendLayout();
-            this.groupBox6.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabTwo
             // 
-            this.tabTwo.Controls.Add(this.tabClient);
             this.tabTwo.Controls.Add(this.tabOne);
             this.tabTwo.Controls.Add(this.tabPage3);
             this.tabTwo.Controls.Add(this.tabThree);
@@ -95,16 +93,6 @@
             this.tabTwo.SelectedIndex = 0;
             this.tabTwo.Size = new System.Drawing.Size(884, 434);
             this.tabTwo.TabIndex = 0;
-            // 
-            // tabClient
-            // 
-            this.tabClient.Location = new System.Drawing.Point(4, 22);
-            this.tabClient.Name = "tabClient";
-            this.tabClient.Padding = new System.Windows.Forms.Padding(3);
-            this.tabClient.Size = new System.Drawing.Size(876, 408);
-            this.tabClient.TabIndex = 0;
-            this.tabClient.Text = "Заказчик";
-            this.tabClient.UseVisualStyleBackColor = true;
             // 
             // tabOne
             // 
@@ -122,10 +110,73 @@
             this.tabOne.Text = "1. Общие сведения";
             this.tabOne.UseVisualStyleBackColor = true;
             // 
+            // groupBox6
+            // 
+            this.groupBox6.Controls.Add(this.label9);
+            this.groupBox6.Controls.Add(this.label8);
+            this.groupBox6.Controls.Add(this.label7);
+            this.groupBox6.Controls.Add(this.textBox10);
+            this.groupBox6.Controls.Add(this.textBox9);
+            this.groupBox6.Controls.Add(this.textBox8);
+            this.groupBox6.Location = new System.Drawing.Point(8, 3);
+            this.groupBox6.Name = "groupBox6";
+            this.groupBox6.Size = new System.Drawing.Size(420, 100);
+            this.groupBox6.TabIndex = 10;
+            this.groupBox6.TabStop = false;
+            this.groupBox6.Text = "groupBox6";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(6, 74);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(50, 13);
+            this.label9.TabIndex = 11;
+            this.label9.Text = "Задание";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(6, 48);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(55, 13);
+            this.label8.TabIndex = 10;
+            this.label8.Text = "Заказчик";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(6, 23);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(91, 13);
+            this.label7.TabIndex = 9;
+            this.label7.Text = "Номер договора";
+            // 
+            // textBox10
+            // 
+            this.textBox10.Location = new System.Drawing.Point(99, 71);
+            this.textBox10.Name = "textBox10";
+            this.textBox10.Size = new System.Drawing.Size(315, 20);
+            this.textBox10.TabIndex = 8;
+            // 
+            // textBox9
+            // 
+            this.textBox9.Location = new System.Drawing.Point(99, 45);
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(315, 20);
+            this.textBox9.TabIndex = 7;
+            // 
+            // textBox8
+            // 
+            this.textBox8.Location = new System.Drawing.Point(99, 19);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(315, 20);
+            this.textBox8.TabIndex = 6;
+            // 
             // groupBox5
             // 
             this.groupBox5.Controls.Add(this.textBox7);
-            this.groupBox5.Location = new System.Drawing.Point(450, 109);
+            this.groupBox5.Location = new System.Drawing.Point(453, 215);
             this.groupBox5.Name = "groupBox5";
             this.groupBox5.Size = new System.Drawing.Size(420, 100);
             this.groupBox5.TabIndex = 9;
@@ -143,7 +194,7 @@
             // groupBox4
             // 
             this.groupBox4.Controls.Add(this.textBox6);
-            this.groupBox4.Location = new System.Drawing.Point(450, 3);
+            this.groupBox4.Location = new System.Drawing.Point(453, 109);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(420, 100);
             this.groupBox4.TabIndex = 8;
@@ -164,7 +215,7 @@
             this.groupBox3.Controls.Add(this.label4);
             this.groupBox3.Controls.Add(this.textBox4);
             this.groupBox3.Controls.Add(this.label3);
-            this.groupBox3.Location = new System.Drawing.Point(8, 306);
+            this.groupBox3.Location = new System.Drawing.Point(456, 9);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(420, 85);
             this.groupBox3.TabIndex = 7;
@@ -381,20 +432,21 @@
             // открытьToolStripMenuItem
             // 
             this.открытьToolStripMenuItem.Name = "открытьToolStripMenuItem";
-            this.открытьToolStripMenuItem.Size = new System.Drawing.Size(132, 22);
+            this.открытьToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.открытьToolStripMenuItem.Text = "Открыть";
             this.открытьToolStripMenuItem.Click += new System.EventHandler(this.открытьToolStripMenuItem_Click);
             // 
             // сохранитьToolStripMenuItem
             // 
             this.сохранитьToolStripMenuItem.Name = "сохранитьToolStripMenuItem";
-            this.сохранитьToolStripMenuItem.Size = new System.Drawing.Size(132, 22);
+            this.сохранитьToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.сохранитьToolStripMenuItem.Text = "Сохранить";
+            this.сохранитьToolStripMenuItem.Click += new System.EventHandler(this.сохранитьToolStripMenuItem_Click);
             // 
             // выходToolStripMenuItem
             // 
             this.выходToolStripMenuItem.Name = "выходToolStripMenuItem";
-            this.выходToolStripMenuItem.Size = new System.Drawing.Size(132, 22);
+            this.выходToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.выходToolStripMenuItem.Text = "Выход";
             // 
             // оПрограммеToolStripMenuItem
@@ -402,69 +454,6 @@
             this.оПрограммеToolStripMenuItem.Name = "оПрограммеToolStripMenuItem";
             this.оПрограммеToolStripMenuItem.Size = new System.Drawing.Size(94, 20);
             this.оПрограммеToolStripMenuItem.Text = "О программе";
-            // 
-            // groupBox6
-            // 
-            this.groupBox6.Controls.Add(this.label9);
-            this.groupBox6.Controls.Add(this.label8);
-            this.groupBox6.Controls.Add(this.label7);
-            this.groupBox6.Controls.Add(this.textBox10);
-            this.groupBox6.Controls.Add(this.textBox9);
-            this.groupBox6.Controls.Add(this.textBox8);
-            this.groupBox6.Location = new System.Drawing.Point(8, 3);
-            this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(420, 100);
-            this.groupBox6.TabIndex = 10;
-            this.groupBox6.TabStop = false;
-            this.groupBox6.Text = "groupBox6";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(6, 74);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(50, 13);
-            this.label9.TabIndex = 11;
-            this.label9.Text = "Задание";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(6, 48);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(55, 13);
-            this.label8.TabIndex = 10;
-            this.label8.Text = "Заказчик";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(6, 23);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(87, 13);
-            this.label7.TabIndex = 9;
-            this.label7.Text = "Идентификатор";
-            // 
-            // textBox10
-            // 
-            this.textBox10.Location = new System.Drawing.Point(99, 71);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(315, 20);
-            this.textBox10.TabIndex = 8;
-            // 
-            // textBox9
-            // 
-            this.textBox9.Location = new System.Drawing.Point(99, 45);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(315, 20);
-            this.textBox9.TabIndex = 7;
-            // 
-            // textBox8
-            // 
-            this.textBox8.Location = new System.Drawing.Point(99, 19);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(315, 20);
-            this.textBox8.TabIndex = 6;
             // 
             // Form1
             // 
@@ -481,6 +470,8 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.tabTwo.ResumeLayout(false);
             this.tabOne.ResumeLayout(false);
+            this.groupBox6.ResumeLayout(false);
+            this.groupBox6.PerformLayout();
             this.groupBox5.ResumeLayout(false);
             this.groupBox5.PerformLayout();
             this.groupBox4.ResumeLayout(false);
@@ -496,8 +487,6 @@
             this.tabThree.ResumeLayout(false);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
-            this.groupBox6.ResumeLayout(false);
-            this.groupBox6.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -506,7 +495,6 @@
         #endregion
 
         private System.Windows.Forms.TabControl tabTwo;
-        private System.Windows.Forms.TabPage tabClient;
         private System.Windows.Forms.TabPage tabOne;
         private System.Windows.Forms.TabPage tabPage3;
         private System.Windows.Forms.TabPage tabThree;
@@ -542,9 +530,9 @@
         private System.Windows.Forms.GroupBox groupBox6;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox textBox10;
         private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox textBox8;
     }
 }
