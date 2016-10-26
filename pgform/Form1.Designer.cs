@@ -34,25 +34,25 @@
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.tBQuest = new System.Windows.Forms.TextBox();
+            this.tBCust = new System.Windows.Forms.TextBox();
+            this.tBID = new System.Windows.Forms.TextBox();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.tB7 = new System.Windows.Forms.TextBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.tB6 = new System.Windows.Forms.TextBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.tB5 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.tB4 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.tB3 = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.tB2 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.tB1 = new System.Windows.Forms.TextBox();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.richTextBox2 = new System.Windows.Forms.RichTextBox();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
@@ -65,7 +65,7 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.файлToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.открытьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.сохранитьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.saver = new System.Windows.Forms.ToolStripMenuItem();
             this.выходToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.оПрограммеToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tabTwo.SuspendLayout();
@@ -115,9 +115,9 @@
             this.groupBox6.Controls.Add(this.label9);
             this.groupBox6.Controls.Add(this.label8);
             this.groupBox6.Controls.Add(this.label7);
-            this.groupBox6.Controls.Add(this.textBox10);
-            this.groupBox6.Controls.Add(this.textBox9);
-            this.groupBox6.Controls.Add(this.textBox8);
+            this.groupBox6.Controls.Add(this.tBQuest);
+            this.groupBox6.Controls.Add(this.tBCust);
+            this.groupBox6.Controls.Add(this.tBID);
             this.groupBox6.Location = new System.Drawing.Point(8, 3);
             this.groupBox6.Name = "groupBox6";
             this.groupBox6.Size = new System.Drawing.Size(420, 100);
@@ -152,30 +152,30 @@
             this.label7.TabIndex = 9;
             this.label7.Text = "Номер договора";
             // 
-            // textBox10
+            // tBQuest
             // 
-            this.textBox10.Location = new System.Drawing.Point(99, 71);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(315, 20);
-            this.textBox10.TabIndex = 8;
+            this.tBQuest.Location = new System.Drawing.Point(99, 71);
+            this.tBQuest.Name = "tBQuest";
+            this.tBQuest.Size = new System.Drawing.Size(315, 20);
+            this.tBQuest.TabIndex = 8;
             // 
-            // textBox9
+            // tBCust
             // 
-            this.textBox9.Location = new System.Drawing.Point(99, 45);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(315, 20);
-            this.textBox9.TabIndex = 7;
+            this.tBCust.Location = new System.Drawing.Point(99, 45);
+            this.tBCust.Name = "tBCust";
+            this.tBCust.Size = new System.Drawing.Size(315, 20);
+            this.tBCust.TabIndex = 7;
             // 
-            // textBox8
+            // tBID
             // 
-            this.textBox8.Location = new System.Drawing.Point(99, 19);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(315, 20);
-            this.textBox8.TabIndex = 6;
+            this.tBID.Location = new System.Drawing.Point(99, 19);
+            this.tBID.Name = "tBID";
+            this.tBID.Size = new System.Drawing.Size(315, 20);
+            this.tBID.TabIndex = 6;
             // 
             // groupBox5
             // 
-            this.groupBox5.Controls.Add(this.textBox7);
+            this.groupBox5.Controls.Add(this.tB7);
             this.groupBox5.Location = new System.Drawing.Point(453, 215);
             this.groupBox5.Name = "groupBox5";
             this.groupBox5.Size = new System.Drawing.Size(420, 100);
@@ -183,17 +183,17 @@
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "1.6 Порядок оформления и предъявления заказчику результатов работ";
             // 
-            // textBox7
+            // tB7
             // 
-            this.textBox7.Location = new System.Drawing.Point(7, 19);
-            this.textBox7.Multiline = true;
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(407, 75);
-            this.textBox7.TabIndex = 0;
+            this.tB7.Location = new System.Drawing.Point(7, 19);
+            this.tB7.Multiline = true;
+            this.tB7.Name = "tB7";
+            this.tB7.Size = new System.Drawing.Size(407, 75);
+            this.tB7.TabIndex = 0;
             // 
             // groupBox4
             // 
-            this.groupBox4.Controls.Add(this.textBox6);
+            this.groupBox4.Controls.Add(this.tB6);
             this.groupBox4.Location = new System.Drawing.Point(453, 109);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(420, 100);
@@ -201,19 +201,19 @@
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "1.4 Плановые сроки начала и окончания работ";
             // 
-            // textBox6
+            // tB6
             // 
-            this.textBox6.Location = new System.Drawing.Point(7, 20);
-            this.textBox6.Multiline = true;
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(407, 74);
-            this.textBox6.TabIndex = 0;
+            this.tB6.Location = new System.Drawing.Point(7, 20);
+            this.tB6.Multiline = true;
+            this.tB6.Name = "tB6";
+            this.tB6.Size = new System.Drawing.Size(407, 74);
+            this.tB6.TabIndex = 0;
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.textBox5);
+            this.groupBox3.Controls.Add(this.tB5);
             this.groupBox3.Controls.Add(this.label4);
-            this.groupBox3.Controls.Add(this.textBox4);
+            this.groupBox3.Controls.Add(this.tB4);
             this.groupBox3.Controls.Add(this.label3);
             this.groupBox3.Location = new System.Drawing.Point(456, 9);
             this.groupBox3.Name = "groupBox3";
@@ -222,13 +222,13 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "1.3 Наименование организаций — Заказчика и Разработчика";
             // 
-            // textBox5
+            // tB5
             // 
-            this.textBox5.Location = new System.Drawing.Point(94, 54);
-            this.textBox5.Multiline = true;
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(320, 20);
-            this.textBox5.TabIndex = 3;
+            this.tB5.Location = new System.Drawing.Point(94, 54);
+            this.tB5.Multiline = true;
+            this.tB5.Name = "tB5";
+            this.tB5.Size = new System.Drawing.Size(320, 20);
+            this.tB5.TabIndex = 3;
             // 
             // label4
             // 
@@ -239,13 +239,13 @@
             this.label4.TabIndex = 2;
             this.label4.Text = "Исполнитель:";
             // 
-            // textBox4
+            // tB4
             // 
-            this.textBox4.Location = new System.Drawing.Point(94, 20);
-            this.textBox4.Multiline = true;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(320, 20);
-            this.textBox4.TabIndex = 1;
+            this.tB4.Location = new System.Drawing.Point(94, 20);
+            this.tB4.Multiline = true;
+            this.tB4.Name = "tB4";
+            this.tB4.Size = new System.Drawing.Size(320, 20);
+            this.tB4.TabIndex = 1;
             // 
             // label3
             // 
@@ -258,7 +258,7 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.textBox3);
+            this.groupBox2.Controls.Add(this.tB3);
             this.groupBox2.Location = new System.Drawing.Point(8, 200);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(420, 100);
@@ -266,20 +266,20 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "1.2 Основание для проведения работ";
             // 
-            // textBox3
+            // tB3
             // 
-            this.textBox3.Location = new System.Drawing.Point(7, 20);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(407, 74);
-            this.textBox3.TabIndex = 0;
+            this.tB3.Location = new System.Drawing.Point(7, 20);
+            this.tB3.Multiline = true;
+            this.tB3.Name = "tB3";
+            this.tB3.Size = new System.Drawing.Size(407, 74);
+            this.tB3.TabIndex = 0;
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.textBox2);
+            this.groupBox1.Controls.Add(this.tB2);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.tB1);
             this.groupBox1.Location = new System.Drawing.Point(8, 109);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(420, 85);
@@ -287,13 +287,13 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "1.1 Наименование системы";
             // 
-            // textBox2
+            // tB2
             // 
-            this.textBox2.Location = new System.Drawing.Point(189, 54);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(225, 20);
-            this.textBox2.TabIndex = 3;
+            this.tB2.Location = new System.Drawing.Point(189, 54);
+            this.tB2.Multiline = true;
+            this.tB2.Name = "tB2";
+            this.tB2.Size = new System.Drawing.Size(225, 20);
+            this.tB2.TabIndex = 3;
             // 
             // label2
             // 
@@ -313,13 +313,13 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "Полное наименование системы:";
             // 
-            // textBox1
+            // tB1
             // 
-            this.textBox1.Location = new System.Drawing.Point(189, 20);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(225, 20);
-            this.textBox1.TabIndex = 0;
+            this.tB1.Location = new System.Drawing.Point(189, 20);
+            this.tB1.Multiline = true;
+            this.tB1.Name = "tB1";
+            this.tB1.Size = new System.Drawing.Size(225, 20);
+            this.tB1.TabIndex = 0;
             // 
             // tabPage3
             // 
@@ -423,7 +423,7 @@
             // 
             this.файлToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.открытьToolStripMenuItem,
-            this.сохранитьToolStripMenuItem,
+            this.saver,
             this.выходToolStripMenuItem});
             this.файлToolStripMenuItem.Name = "файлToolStripMenuItem";
             this.файлToolStripMenuItem.Size = new System.Drawing.Size(48, 20);
@@ -436,12 +436,12 @@
             this.открытьToolStripMenuItem.Text = "Открыть";
             this.открытьToolStripMenuItem.Click += new System.EventHandler(this.открытьToolStripMenuItem_Click);
             // 
-            // сохранитьToolStripMenuItem
+            // saver
             // 
-            this.сохранитьToolStripMenuItem.Name = "сохранитьToolStripMenuItem";
-            this.сохранитьToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.сохранитьToolStripMenuItem.Text = "Сохранить";
-            this.сохранитьToolStripMenuItem.Click += new System.EventHandler(this.сохранитьToolStripMenuItem_Click);
+            this.saver.Name = "saver";
+            this.saver.Size = new System.Drawing.Size(152, 22);
+            this.saver.Text = "Сохранить";
+            this.saver.Click += new System.EventHandler(this.сохранитьToolStripMenuItem_Click);
             // 
             // выходToolStripMenuItem
             // 
@@ -506,34 +506,34 @@
         private System.Windows.Forms.GroupBox groupBox5;
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox tB5;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox tB4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox tB3;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox tB2;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox tB1;
+        private System.Windows.Forms.TextBox tB7;
+        private System.Windows.Forms.TextBox tB6;
         private System.Windows.Forms.RichTextBox richTextBox2;
         private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.RichTextBox richTextBox3;
         private System.Windows.Forms.ToolStripMenuItem открытьToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem сохранитьToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem saver;
         private System.Windows.Forms.ToolStripMenuItem выходToolStripMenuItem;
         private System.Windows.Forms.GroupBox groupBox6;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox tBQuest;
+        private System.Windows.Forms.TextBox tBCust;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox tBID;
     }
 }
 
